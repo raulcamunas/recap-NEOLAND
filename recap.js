@@ -117,3 +117,24 @@ function fibonacci(n) {
 let n = 10; 
 let fibSeries = fibonacci(n);
 console.log(fibSeries);
+
+// EJERCICIO 13
+
+function celsiusToFahrenheit(celsius) {
+    let fahrenheit = celsius * 1.8 + 32;
+    return fahrenheit
+}
+
+let temperaturaCelsius = 12
+let temperaturaFahrenheit = celsiusToFahrenheit(temperaturaCelsius)
+
+console.log(temperaturaCelsius + " Grados Celsius son " + "temperatura Fahrenheit. ")
+
+// EJERCICIO 14
+
+let celsiusToFahrenheit2 = celsius2 => (celsius2 * 1.8) + 32;
+
+let temperaturaCelsius2 = 25
+let temperaturaFahrenheit2 = celsiusToFahrenheit2(temperaturaCelsius2)
+console.log(`${temperaturaCelsius2} grados Celsius son ${temperaturaFahrenheit2} grados Fahrenheit.`);
+
